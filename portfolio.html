@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My portfolio Website
+        </title>
+        <style>
+            ul{
+                list-style-type: none;
+               
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header{
+                padding: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color:#26315a;
+            }
+            a{
+                color: white;
+                text-decoration: white;
+            }
+            .logo{
+                font-size: 24px;
+                color: #FF4655;
+                font-weight: bold;
+                margin-left: 120px
+            }
+
+            .naelinks{
+                display: flex;
+                gap: 50px;
+                
+                margin-right: 100px;
+                
+
+            }
+            /* Resume button */
+            .buttons a[href="#resume"] {
+                background-color: #FF4655;
+                color: white;
+                padding: 15px 30px;
+                display: inline-block;
+                border-radius: 20px;
+                font-family: Verdana;
+                text-decoration: none;
+                margin-top: 30px;
+            }
+
+            /* Resume button hover effect */
+            .buttons a[href="#resume"]:hover {
+                background-color: #b63b46;
+            }
+
+            /* About Me button */
+            .buttons a[href="hh.html"] {
+                background-color: #30417d;
+                color: white;
+                padding: 15px 30px;
+                display: inline-block;
+                border-radius: 20px;
+                font-family: Verdana;
+                text-decoration: none;
+                margin-top: 30px;
+                margin-left: 25px;
+                
+            }
+
+            /* About Me button hover effect */
+            .buttons a[href="hh.html"]:hover {
+                background-color: #204a88;
+            }
+
+
+            body{
+                background-color: #26315a;
+                color: #ffffff;
+                font-family: Arial, sans-serif;
+            }
+            .about-me {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 50px;
+                    transform: translateY(-25%);
+                    
+                    border-radius: 20px;
+                    margin: 200px;
+            }
+            .content h2{
+               
+                    color: grey;
+                    
+            }
+            nav{
+                font-weight: bold;
+            }
+            h1{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size:60px;
+                
+            }
+            .sociallinks{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-left: 10px;
+                
+                transform: translateX(2%);
+                transform: translateY(-150%);
+                
+            }
+
+            .naelinks a[href="#"]:hover{
+                background-color :  #363aaa;
+                padding:10px 20px;
+                border-radius: 20px;
+
+
+            }
+            .naelinks a[href="#2"]:hover{
+                background-color :  #363aaa;
+                padding:10px 20px;
+                border-radius: 20px;
+
+
+            }
+            .naelinks a[href="#3"]:hover{
+                background-color :  #363aaa;
+                padding:10px 20px;
+                border-radius: 20px;
+
+
+            }
+            .naelinks a[href="#4"]:hover{
+                background-color :  #363aaa;
+                padding:10px 20px;
+                border-radius: 20px;
+
+
+            }
+         
+            
+
+
+        </style>
+    </head>
+    <body >
+        <img src="img/istockphoto-1155155070-612x612-removebg-preview.png" style="position: absolute;left: 60%;top: 20%;">
+        <header>
+            <div class="logo"><samp style="color: white;"><</samp><samp style="color: white;">/</samp>MyWeb<samp style="color: white;">></samp></div>
+            <nav>
+                <ul class="naelinks" >
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#2">About</a></li>
+                    <li><a href="#3">Contact</a></li>
+                    <li><a href="#4">Support</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="about-me" >
+                <div class="content">
+                    <h2>Hi There</h2>
+                    <h1 ><samp style="color: white;">I'm </samp><samp style="color: rgb(214, 65, 65);">Joel OSteen</samp></h1>
+                    <p style="font-size: 40px;">I am a student at SKCET</p>
+                    <div class="buttons">
+                        <a href="#resume" >Resume</a>
+                        <a href="hh.html" target="_blank" >About Me</a>
+                    </div>
+                </div>
+            </section>
+            <aside class="sociallinks" style="position: fixed;">
+                <a href="https://wa.me/919629638757" target="_blank"><img src="img/icons8-whatsapp-128.png" width="35px" height="35px" ></a>
+                <a href="https://www.facebook.com/profile.php?id=100090496161644" target="_blank"><img src="img/icons8-facebook-logo-50.png" width="35px" height="35px"></a>
+                <a href="https://github.com/joel063" target="_blank"><img src="img/icons8-twitter-logo-50.png" width="35px" height="35px"></a>
+                <a href="https://www.linkedin.com/in/josteen/" target="_blank"><img src="img/icons8-linkedin-circled-50.png" width="35px" height="35px"></a>
+            </aside>
+        </main>
+
+    </body>
+</html>
